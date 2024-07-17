@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # HCMS-0.0.1;Code by Artesonic
 # 适用于python3.8.9;3.11
-import opencc
 import os
 import opencc
 # converter = opencc.OpenCC('s2t.json')
