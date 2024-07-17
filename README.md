@@ -13,12 +13,22 @@
 <p><br><br></p>
 
 ## 使用说明
-
-#### 安装依赖|Install
+- 经测试，本程序可以在Windows10的python3.8.9和python3.11两个版本上正常运行。关于其他版本及平台的运行情况，欢迎在issues反馈。
+- opencc推荐使用的版本为1.1.7
+#### 安装依赖 | Install
+- opencc-1.1.7
+- os
 ```python  
-pip install opencc
+pip install opencc,os
 ```
 
+<p><br></p>
+
+## 后续开发计划
+- 支持台体，日体，港体等的转换
+- 支持docx文件的转换
+- 从上游的opencc项目中导出转换数据，使用python重写核心功能
+  
 <p><br></p>
 
 ## 许可 
