@@ -24,7 +24,7 @@ pip install opencc,os
 
 <p><br></p>
 
-## 后续开发计划
+## 后续开发计划🕊
 - 支持台体，日体，港体等的转换
 - 支持docx文件的转换
 - 从上游的opencc项目中导出转换数据，使用python重写核心功能
