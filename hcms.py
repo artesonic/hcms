@@ -16,11 +16,11 @@ print("b. 繁转简")
 # print("c. 简体>>台体"
 # print("d. 繁体>>和制汉字")
 
-key_input = input("请输入模式代码")
+key_input = input("请输入模式代码:")
 def inputchr() :
     global input_file,c1,input_str
     if '1' in key_input:
-        input_str = input("请输入要转换的字")
+        input_str = input("请输入要转换的字:")
         c1=1
     elif '2' in key_input:
         input_file = input("请拖入转换的txt文件")
