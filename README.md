@@ -17,9 +17,8 @@
 - opencc推荐使用的版本为1.1.7
 #### 安装依赖 | Install
 - opencc-1.1.7
-- os
 ```python  
-pip install opencc,os
+pip install opencc
 ```
 
 <p><br></p>
