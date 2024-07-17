@@ -8,7 +8,7 @@ import opencc
 # converter.convert('汉字')  # 漢字
 # converter.convert('漢字')  # 汉字
 print("欢迎使用繁简字转换程序，本程序的核心功能由opencc(Open Chinese Convert:https://github.com/BYVoid/OpenCC)提供")
-print("请选择工作模式（输入字母或数字）：")
+print("请选择工作模式（分别输入对应的字母和数字）：")
 print("1. 个别繁简字互转")
 print("2. txt文件批量繁简字互转")
 print("a. 简转繁")
