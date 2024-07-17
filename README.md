@@ -1,5 +1,5 @@
 # Chinese Convert Based on OpenCC
-中文繁简转换/汉字繁简转换 | Chinese Convert Based on OpenCC
+中文繁简转换/汉字繁简转换 | Chinese Convert between Traditional Chinese and Simplified Chinese,Based on OpenCC
 ## 
 
 # 本程序的核心功能依赖于[OpenCC](https://github.com/BYVoid/OpenCC)
