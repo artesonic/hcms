@@ -29,8 +29,4 @@ Apache License 2.0
 
 <p><br></p>
 
-## 欢迎交流
-artesonic@outlook.com
-
-
 #### 
