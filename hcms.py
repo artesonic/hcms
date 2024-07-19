@@ -17,8 +17,6 @@ print("2. txt文件批量繁简字互转")
 print("a. 简转繁")
 print("b. 繁转简")
 print('c.采用config.txt中的配置文件(打开config.txt,查看配置文件中的使用说明，按照说明选择合适的参数)')
-# print("c. 简体>>台体"
-# print("d. 繁体>>和制汉字")
 
 key_input = input("请输入模式代码:")
 def inputchr() :
@@ -36,9 +34,9 @@ def outputchr():
     global input_cmd
     if 'a' in key_input:
         input_cmd= 'opencc.OpenCC("s2t.json").convert(input_str)'
-    if 'b' in key_input:
+    elif 'b' in key_input:
         input_cmd= 'opencc.OpenCC("t2s.json").convert(input_str)'
-    if 'c' in key_input:
+    elif 'c' in key_input:
         file_path=main_work_path+'\config.txt'
         input_cmd_con = configdeal.read_file_ignore_comments(file_path)
         input_cmd= f'opencc.OpenCC("{input_cmd_con}.json").convert(input_str)'
