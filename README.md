@@ -21,6 +21,8 @@
 ```python  
 pip install opencc
 ```
+<p><br></p>
+
 ### 开始运行
 #### 打开命令提示符
 输入`python hcms.py`
