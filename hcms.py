@@ -20,7 +20,7 @@ print('c.采用config.txt中的配置文件(打开config.txt,查看配置文件�
 # print("c. 简体>>台体"
 # print("d. 繁体>>和制汉字")
 
-key_input = input("请输入模式代码")
+key_input = input("请输入模式代码:")
 def inputchr() :
     global input_file,c1,input_str
     if '1' in key_input:
